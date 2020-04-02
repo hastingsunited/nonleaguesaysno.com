@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162320803-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-162320803-1');
+        </script>
+        <meta charset="utf-8" />
+        <meta name="description" content="This statement is a joint letter to the FA from clubs in steps three to seven of the non-league, as well as from clubs across the respective women’s leagues." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="fb:admins" content="512236167" />
+        <meta property="og:title" content="Non-League Says No" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.nonleaguesaysno.com/" />
+        <meta property="og:image" content="https://www.nonleaguesaysno.com/img/open-graph-image.gif" />
+        <meta property="og:description" content="This statement is a joint letter to the FA from clubs in steps three to seven of the non-league, as well as from clubs across the respective women’s leagues." />
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:site_name" content="Non-League Says No" />
+        <title>Non-League Says No</title>
         <link href="./css/app.css" rel="stylesheet" />
     </head>
     <body class="bg-black text-white">
@@ -81,8 +97,14 @@
                         </fieldset>
                     </form>
                 </div>
-                <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
             </main>
         </div>
+        <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
+        <script>
+            var subForm = document.getElementById('subForm');
+            subForm.addEventListener('submit', function (event) {
+                gtag('event', 'sign_up');
+            });
+        </script>
     </body>
 </html>
